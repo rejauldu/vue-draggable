@@ -24,7 +24,6 @@ import draggable from 'vuedraggable';
 		data() {
 			return {
 				mutableItems: this.items, /* you should not use the same name for your prop and data */
-				cache: false,
 			}
 			
 		},
